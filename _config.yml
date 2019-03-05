@@ -1,15 +1,15 @@
 # Site settings
-title: Alejandro López Sánchez
+title: Alejandro Pena Lorenzo
 description: Personal portfolio
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
-username: Alejandro López
-user_title: Frontend engineer
-email: a.lopez.sanchez@outlook.es
-twitter_username: aristalex
-github_username:  alopezsanchez
+username: Alejandro Pena
+user_title: Software Engineer
+email: info@alejandropena.dev
+twitter_username: apenlor
+github_username:  gbtec-ext-alejandropenaalopezsanchez
 
 # Google-analytics
 google-analytics:
