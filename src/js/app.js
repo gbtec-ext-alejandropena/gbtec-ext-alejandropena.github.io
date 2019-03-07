@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 30,
+        "value": 60,
         "density": {
           "enable": true,
           "value_area": 800
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "polygon",
+        "type": "circle",
         "stroke": {
           "width": 0,
           "color": "#000000"
@@ -70,15 +70,14 @@ document.addEventListener("DOMContentLoaded", function () {
           "rotateX": 600,
           "rotateY": 1200
         }
-      },
-      nb: 80
+      }
     },
     "interactivity": {
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": false,
-          "mode": "grab"
+          "enable": true,
+          "mode": "repulse"
         },
         "onclick": {
           "enable": true,
