@@ -12,7 +12,7 @@ twitter_username: apenlor
 github_username:  gbtec-ext-alejandropenaalopezsanchez
 
 # Google-analytics
-google-analytics:
-  id: ""
+google_analytics: true
+google_analytics_id: UA-135913298-1
 
 exclude: ['package.json', 'src' , 'node_modules']
