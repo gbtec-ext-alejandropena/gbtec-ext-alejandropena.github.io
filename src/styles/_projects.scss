@@ -68,6 +68,14 @@
   }
 }
 
+.double-project-link{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  align-content: stretch;
+}
+
 .project-link {
   display: block;
   width: 100px;
