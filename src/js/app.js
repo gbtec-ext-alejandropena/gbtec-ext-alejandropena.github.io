@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   particlesJS('particles-js', {
     "particles": {
       "number": {
-        "value": 60,
+        "value": 90,
         "density": {
           "enable": true,
           "value_area": 800
@@ -34,32 +34,32 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": 0.5,
         "random": false,
         "anim": {
-          "enable": false,
-          "speed": 1,
+          "enable": true,
+          "speed": 0.5,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 3,
+        "value": 2,
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 19.18081918081918,
+          "enable": true,
+          "speed": 2,
           "size_min": 0.1,
           "sync": false
         }
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
+        "distance": 120,
         "color": "#ffffff",
         "opacity": 0.4,
         "width": 1
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 2,
         "direction": "none",
         "random": true,
         "straight": false,
@@ -97,14 +97,14 @@ document.addEventListener("DOMContentLoaded", function () {
           "size": 40,
           "duration": 2,
           "opacity": 8,
-          "speed": 3
+          "speed": 2
         },
         "repulse": {
           "distance": 200,
           "duration": 0.4
         },
         "push": {
-          "particles_nb": 4
+          "particles_nb": 15
         },
         "remove": {
           "particles_nb": 2
