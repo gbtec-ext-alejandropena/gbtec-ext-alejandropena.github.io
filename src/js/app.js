@@ -41,12 +41,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
       },
       "size": {
-        "value": 3,
+        "value": 2,
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 19.18081918081918,
-          "size_min": 0.1,
+          "enable": true,
+          "speed": 3,
+          "size_min": 1,
           "sync": false
         }
       },
