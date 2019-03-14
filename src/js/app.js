@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": 60,
         "density": {
           "enable": true,
-          "value_area": 800
+          "value_area": 1000
         }
       },
       "color": {
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "detect_on": "window",
       "events": {
         "onhover": {
-          "enable": true,
+          "enable": false,
           "mode": "grab"
         },
         "onclick": {
@@ -101,10 +101,10 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         "repulse": {
           "distance": 200,
-          "duration": 0.4
+          "duration": 3.4
         },
         "push": {
-          "particles_nb": 6
+          "particles_nb": 4
         },
         "remove": {
           "particles_nb": 2
